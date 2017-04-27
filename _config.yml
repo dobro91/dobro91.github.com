@@ -1,0 +1,60 @@
+# Site Info
+title: DO! BRO!
+tagline: '도브로와 함께 공부하는 코딩의 기술'
+description: '본 Jekyll theme는  <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>로 적용되었고 <a href="http://codinfox.github.io" target="_blank">@codinfox</a>가 만든 thema입니다.'
+baseurl: ""
+url: http://park911125.github.com
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+#version: 1.0.0
+
+# About/contact
+author:
+  name: DOBRO
+  description: <strong>프로그래밍, 데이터 분석, 심리학</strong><br/>을 좋아하는 청년입니다.
+  gravatar:  64388a4583c8655820df4c2770ef88a3 # md5 hash of your email address
+  contact:
+    linkedin:  https://www.linkedin.com/in/do-hyung-park-9845a0128/
+    github:    https://github.com/park911125
+    facebook:  https://facebook.com/park911125
+
+# Navigation (2nd level links supported)
+nav:
+  홈페이지:           
+    - '/'
+  블로그:           
+    - '/blog/'
+    - { 카테고리: '/blog/categories/' }
+    - { 태그: '/blog/tags/' }
+  About:          
+    - '/about/'
+  #Github Project: 
+  #  - 'http://codinfox.github.io/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/ast.gif
+  caption: Original Source &copy; <a href="https://68.media.tumblr.com/2c2fc448297a2420de63eebd5364d4eb/tumblr_oh48upVg2D1v2useeo1_500.gif">Tumblr</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+
