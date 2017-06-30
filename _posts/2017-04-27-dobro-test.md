@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Use Tags and Categories in your Jekyll based Github Pages
-category: Dev
-tags: [web, jekyll]
+title: Functional Programming With Scala - Intro
+category: Scala
+tags: [Scala, functional_programming]
 ---
 
-test
-```javascript
-var test = 1
-```
+프로그래밍 패러다임
+------
+* Imprerative programming(명령형 프로그래밍) : C, Java 등
+- Functional programming : Scala, Lisp 등
++ Logic programming
+
+> Imprerative programming + Functional programming = Object-oriented programming
