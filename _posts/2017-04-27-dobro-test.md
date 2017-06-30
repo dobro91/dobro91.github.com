@@ -6,3 +6,6 @@ tags: [web, jekyll]
 ---
 
 test
+```javascript
+var test = 1
+```
